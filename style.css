@@ -21,7 +21,7 @@ main {
 header {
   background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
   border-bottom-right-radius: 100px;
-  position: fixed;
+  border-top-left-radius: 100px;
   top: 0;
   left: 0;
   right: 0;
@@ -50,15 +50,16 @@ nav{
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
   border-top-left-radius: 1000px;
+  box-shadow: 0 0 25px 0 black;
 }
 footer{
     height: 157px;
-    margin-left: 100px;
     background: linear-gradient(to right, rgb(243, 243, 238), rgb(60, 2, 247), rgb(2, 243, 247));
     border-bottom-right-radius: 1000px;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     border-top-left-radius: 1000px;
+    box-shadow: 0 0 25px 0 black;
 
 }
 #shareicons img {
@@ -67,3 +68,27 @@ footer{
   display: inline;
   margin-left: auto;
 }
+.card{
+  box-shadow: 0 0 25px 0 black;
+}
+.h-100{
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 500px;
+ 
+}
+.container{
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 500px;
+  box-shadow: 0 0 25px 0 rgb(246, 240, 240);
+
+}
+#video,iframe{
+  height: 500px;
+    width:100%;
+    text-align:center;
+}
+
